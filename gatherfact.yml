@@ -1,0 +1,10 @@
+---
+- name: Print Message and Gather Facts
+  hosts: server
+  gather_facts: yes
+  tasks:
+    - name: Print Message
+      debug:
+        msg: "This is a message."
+
+    
