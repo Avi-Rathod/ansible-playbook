@@ -2,7 +2,7 @@
   hosts: db_servers
   become: true
   tasks:
-    - name: instll mariadb
+    - name: install mariadb
       package:
         name: mariadb105-server
         state: present 
